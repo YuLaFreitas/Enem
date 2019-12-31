@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appFundo</item>
+        <item name="colorPrimaryDark">@color/appBarra</item>
+        <item name="colorAccent">@color/fltDetFun</item>
+        <item name="colorError">@android:color/holo_red_dark</item>
+        <item name="actionMenuTextColor">@color/fontAPP</item>
+        <item name="android:fragment">@string/app_name</item>
+
+    </style>
+
+    <style name="layoutLinha" parent="Theme.AppCompat">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:paddingTop">5dp</item>
+
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/menuFundo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="conteinerMenu" parent="layoutLinha">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:paddingTop">@dimen/menuLayout</item>
+
+        <item name="android:layout_marginTop">@dimen/menuLayout</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/dethFundo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="enuciado" parent="Widget.AppCompat.TextView">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/enuciadoFont</item>
+        <item name="android:textSize">@dimen/fontEnuciado</item>
+        <item name="android:gravity">center</item>
+        <item name="android:webViewStyle">@color/design_default_color_primary</item>
+    </style>
+
+   <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

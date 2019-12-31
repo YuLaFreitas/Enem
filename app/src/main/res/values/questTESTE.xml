@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="texto1">
+        Imaginemos um cidadão, residente na periferia de
+um grande centro urbano, que diariamente acorda às 5h
+etc. Como dizer a essa pessoa que ela deve praticar
+exercícios, pois é importante para sua saúde? Como ela
+irá entender a mensagem da importância do exercício
+físico? A probabilidade de essa pessoa praticar exercícios
+Nesse caso, a abordagem individual do problema tende
+a fazer com que a pessoa se sinta impotente em não
+conseguir praticar exercícios e, consequentemente,
+culpada pelo fato de ser ou estar sedentária.
+    </string>
+    <string name="ref">
+        FERREIRA, M. S. Aptidão física e saúde na educação física escolar: ampliando o enfoque.
+    </string>
+
+    <string name="enuciado">
+primeiro acerca do impacto de mudanças no estilo de vida
+na saúde, apresenta uma visão
+    </string>
+    <string name="A">
+    medicalizada, que relaciona a prática de exercícios
+    físicos por qualquer indivíduo à promoção da saúde.
+    </string>
+    <string name="B">
+    ampliada, que considera aspectos sociais
+    intervenientes na prática de exercícios no cotidiano.
+    </string>
+    <string name="C">
+    crítica, que associa a interferência das tarefas da
+    casa ao sedentarismo do indivíduo.
+    </string>
+    <string name="D">
+    focalizada, que atribui ao indivíduo a responsabilidade
+    pela prevenção de doenças.
+    </string>
+    <string name="E">
+    geracional, que preconiza a representação do culto
+    à jovialidade.
+    </string>
+    <string name="acertiva">D</string>
+    <string name="comentario">
+        Chegou a hora de se preparar para o Enem 2019,
+        mas você sabe como são as questões do Enem e
+        por que essa prova atrai o interesse de tanta gente?
+        Vamos começar a responder essas perguntas pela ordem
+        inversa. Aplicado pela primeira vez em 1998, o exame
+        foi criado com o propósito de avaliar o rendimento dos
+        estudantes concluintes do Ensino Médio.
+        Com o passar dos anos, porém, a nota do exame passou
+        a ser utilizada por faculdades e universidades como
+        uma opção ao vestibular tradicional, além de ser um
+        critério de seleção para programas como o Prouni e o Fies.
+        Depois dessa explicação rápida sobre a utilidade do Enem,
+        vamos falar sobre a estrutura da prova. Este miniguia
+        contém tudo o que você quer e precisa saber para tirar uma boa nota!
+    </string>
+</resources>

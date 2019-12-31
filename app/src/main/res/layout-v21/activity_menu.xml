@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/conteinerMenuCHT"
+        style="@style/conteinerMenu">
+
+        <LinearLayout
+            android:id="@+id/banner_CHT"
+            style="@style/layoutLinha">
+
+            <TextView
+                android:id="@+id/txtCHT"
+                style="@style/menuText"
+                android:text="@string/CHT" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flo_cht"
+                android:onClick="onClick"
+                style="@style/image"
+                app:backgroundTint="@color/fltDetFun"
+                app:maxImageSize="@dimen/open" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conteinerMenuCNT"
+        style="@style/conteinerMenu">
+
+        <LinearLayout
+            android:id="@+id/banner_CNT"
+            style="@style/layoutLinha">
+
+            <TextView
+                android:id="@+id/txtCNT"
+                style="@style/menuText"
+
+                android:text="@string/CNT" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flo_cnt"
+                android:onClick="onClick"
+                style="@style/image"
+                app:backgroundTint="@color/fltDetFun"
+                app:maxImageSize="@dimen/open" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conteinerMenuLCT"
+        style="@style/conteinerMenu">
+
+        <LinearLayout
+            android:id="@+id/banner_LCT"
+            style="@style/layoutLinha">
+
+            <TextView
+                android:id="@+id/txtLCT"
+                style="@style/menuText"
+
+                android:text="@string/LCT"
+
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flo_lct"
+                android:onClick="onClick"
+                style="@style/image"
+                app:backgroundTint="@color/fltDetFun"
+                app:maxImageSize="@dimen/open" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conteinerMenuMT"
+        style="@style/conteinerMenu">
+
+        <LinearLayout
+            android:id="@+id/banner_MT"
+            style="@style/layoutLinha"
+            android:contentDescription="@string/MT">
+
+            <TextView
+                android:id="@+id/txtMT"
+                style="@style/menuText"
+
+                android:text="@string/MT" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flo_mt"
+
+                style="@style/image"
+                android:onClick="onClick"
+                app:backgroundTint="@color/fltDetFun"
+                app:maxImageSize="@dimen/open" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

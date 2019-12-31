@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Memory Enem</string>
+    <string name="title_activity_masacara_menu">ALTERNATIVAS</string>
+
+    <string name="CHT">Ciências Humanas e suas Tecnologias:</string>
+    <string name="chtDetalhes">
+        <b>NESSA AREA ESTUDAREMOS:</b>\n
+               >HISTÓRIA   >GEOGRAFIA\n
+               >SOCIÓLOGIA >FILOSÓFIA
+    </string>
+    <string name="CNT">Ciências da Natureza e suas Tecnologias: </string>
+    <string name="cntDetalhes">
+        <b>NESSA AREA ESTUDAREMOS:</b>\n
+        >QUÍMICA   >FISÍCA\n
+        >BIOLOGIA
+    </string>
+    <string name="LCT">Linguagens, Códigos e suas Tecnologias</string>
+    <string name="lctDetalhes">
+        <b>NESSA AREA ESTUDAREMOS:</b>\n
+        >LÍNGUA PORTUGUESA   >LÍNGUA ESPANHOLA\n
+        >LÍNGUA INGLESA      >TECNOLÔGIA DA INFORMAÇÃO
+    </string>
+    <string name="MT">Matemática e suas Tecnologias</string>
+    <string name="mtDetalhes">
+        <b>NESSA AREA ESTUDAREMOS:</b>\n
+        >MÁTEMATICA
+    </string>
+    <string name="pref_dream_text_key">pref_dream_text</string>
+    <string name="pref_dream_text_default">zzzZZZzzz</string>
+    <string name="title_activity_pagina_outros">PaginaOutros</string>
+    <string name="title_activity_questao_mascara">questaoMascara</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

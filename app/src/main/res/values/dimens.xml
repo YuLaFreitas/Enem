@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="maisOPCAO">20dp</dimen>
+    <dimen name="open">60dp</dimen>
+    <dimen name="buttonMargem">10dp</dimen>
+    <dimen name="menuMargem">15dp</dimen>
+    <dimen name="textMenuHeigt">39dp</dimen>
+    <dimen name="textMenuWidth">257dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margMenu">100dp</dimen>
+    <dimen name="frame">400dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="fontAltentivas">20sp</dimen>
+    <dimen name="fontTexto">20sp</dimen>
+    <dimen name="fontMenu">30sp</dimen>
+    <dimen name="fontDeth">8sp</dimen>
+    <dimen name="fontEnuciado">20sp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="fragmento">385dp</dimen>
+</resources>

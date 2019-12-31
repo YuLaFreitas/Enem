@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appFundo">#C6001AFF</color>
+    <color name="fontAPP">#A6C4C4EB</color>
+    <color name="appBarra">#1A237E</color>
+
+    <color name="fltDetFun">#A388FF33</color>
+    <color name="dethFundo">#3B7906</color>
+
+    <color name="fltGerFun">#39BE2788</color>
+
+
+    <color name="enuciadoFundo">#94557C5C</color>
+    <color name="enuciadoFont">#0D2068</color>
+
+    <color name="alterFundo">#A9E496</color>
+    <color name="alterFont">#24256B</color>
+    <color name="alterOpcao">#C3F0B9</color>
+
+    <color name="textoFundo">#94557C5C</color>
+
+    <color name="menuFont">#9E9999</color>
+    <color name="menuFundo">#020D80</color>
+</resources>
