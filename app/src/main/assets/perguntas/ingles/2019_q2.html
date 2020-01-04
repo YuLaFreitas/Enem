@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="pt-br"/>
+    
+    <title>materia</title>
+    
+    <script type="text/javascript">         
+    function acertiva(alternativa){Resposta.avaliacao(alternativa);} 
+        
+    function comentar(){
+       document.getElementById("txtComent").innerHTML=
+           "Todo comentario vai ficar aqui e vai passar para lá";
+    }        
+    </script>
+    
+    <link rel="stylesheet" href="../stilos.css"> 
+    
+    </head>    
+<body id="corpo">
+    <div class="texto">
+            <article>
+                
+                <h1>5 Ways Pets Can Improve Your Health</h1>
+                <p>A pet is certainly a great friend. After a difficult day,
+pet owners quite literally feel the love.</p>
+                <p>In fact, for nearly 25 years, research has shown that
+living with pets provides certain health benefits. Pets help
+lower blood pressure and lessen anxiety. They boost our
+immunity. They can even help you get dates.</p>
+                <p><b>Allergy Fighters: </b>A growing number of studies have
+suggested that kids growing up in a home with “furred
+animals” will have less risk of allergies and asthma.</p>
+                <p><b>Date Magnets: </b>Dogs are great for making love
+connections. Forget Internet matchmaking — a dog is a
+natural conversation starter</p>
+                <p><b>Dogs for the Aged: </b>Walking a dog or just caring for
+a pet — for elderly people who are able — can provide
+exercise and companionship.</p>
+                <p><b>Good for Mind and Soul:</b>Like any enjoyable activity,
+playing with a dog can elevate levels of serotonin and
+dopamine — nerve transmitters that are known to have
+pleasurable and calming properties.</p>
+                <p><b>Good for the Heart:</b>properties.
+Good for the Heart: Heart attack patients who have
+pets survive longer than those without, according to
+several studies.</p>
+                
+<cite>
+    DAVIS, J. L. Disponível em: www.webmd.com.<br>
+Acesso em: 21 abr. 2013 (adaptado).
+                </cite>  
+        </article>        
+    </div>
+    <div class="enuciado">
+        <h4>Ao discutir sobre a influência de animais de estimação no
+bem-estar do ser humano, a autora, a fim de fortalecer
+seus argumentos, utiliza palavras e expressões como
+research, a growing number of research e several
+studies com o objetivo de        
+        </h4>
+    </div>    
+    <div class="alternativas">   
+        <table>      
+        
+        <dl><BUTTON id="a" onclick="acertiva(false)"> 
+                mostrar que animais de estimação ajudam na cura
+de doenças como alergias e asma.
+                </BUTTON>
+            </dl><dl><BUTTON id="b" onclick="acertiva(true)"> 
+            convencer sobre os benefícios da adoção de animais
+de estimação para a saúde.
+            </BUTTON></dl><dl>
+        <BUTTON id="c" onclick="acertiva(false)"> 
+            fornecer dados sobre os impactos de animais de
+estimação nas relações amorosas.
+            </BUTTON></dl><dl>
+        <BUTTON id="d" onclick="acertiva(false)"> 
+            explicar como o contato com animais de estimação
+pode prevenir ataques cardíacos.
+            </BUTTON></dl><dl>
+        <BUTTON id="e" onclick="acertiva(false)"> 
+            esclarecer sobre o modo como idosos devem se
+relacionar com animais de estimação.
+            </BUTTON>  </dl>
+        </table>
+            </div>
+    <div class="comentario">
+        <button onclick="comentar()" id="com">NÃO TEM IDEIA?</button>
+        <p id="txtComent"></p>
+    </div>    
+</body>
+</html>
