@@ -13,7 +13,7 @@
     <color name="enuciadoFundo">#94557C5C</color>
     <color name="enuciadoFont">#0D2068</color>
 
-    <color name="alterFundo">#A9E496</color>
+    <color name="alterFundo">#4B8D38</color>
     <color name="alterFont">#24256B</color>
     <color name="alterOpcao">#C3F0B9</color>
 
@@ -21,4 +21,5 @@
 
     <color name="menuFont">#9E9999</color>
     <color name="menuFundo">#020D80</color>
+    <color name="butaoGeral">#FF0015</color>
 </resources>

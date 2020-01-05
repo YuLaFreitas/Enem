@@ -105,9 +105,8 @@
                 style="@style/image"
                 app:backgroundTint="@color/fltDetFun"
                 app:maxImageSize="@dimen/open"
+
                 />
-
-
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

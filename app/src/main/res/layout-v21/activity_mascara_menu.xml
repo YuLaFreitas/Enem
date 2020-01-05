@@ -10,6 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="?attr/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,6 +28,7 @@
 
             android:drawableStart="@drawable/ic_icone"
             />
+
     </com.google.android.material.appbar.AppBarLayout>
     <ScrollView
         android:layout_width="match_parent"

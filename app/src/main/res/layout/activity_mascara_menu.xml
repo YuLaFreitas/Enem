@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,14 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        android:addStatesFromChildren="true"
-        app:elevation="@dimen/frame"
-        app:layout_insetEdge="top"
-        app:expanded="true"
-        app:liftOnScroll="true"
-        >
-
+        android:theme="@style/AppTheme.AppBarOverlay">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -27,34 +19,38 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
+
             android:text="@string/app_name"
             android:textSize="40sp"
             android:textColor="@color/fontAPP"
-            android:gravity="center"
+            android:textStyle="bold"
+
             android:drawableStart="@drawable/ic_icone"
             android:drawableLeft="@drawable/ic_icone" />
-    </com.google.android.material.appbar.AppBarLayout>
 
+    </com.google.android.material.appbar.AppBarLayout>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_marginTop="@dimen/margMenu"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:fillViewport="true"
         >
         <FrameLayout
-            android:id="@+id/frameMenuHome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
             app:layout_anchorGravity="top"
             >
-    <include layout="@layout/activity_menu" app:layout_anchorGravity="center"/>
+            <include layout="@layout/activity_menu"
+                app:layout_anchorGravity="center"/>
         </FrameLayout>
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
+        app:backgroundTint="@color/fltGerFun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"

@@ -27,23 +27,23 @@ import org.w3c.dom.Attr;
 import java.util.zip.Inflater;
 
 public class MainActivity extends Activity {
-
     LinearLayout conteiner;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         setContentView(R.layout.activity_mascara_menu);
-        TextView txtCht = findViewById(R.id.txtCHT);
-        click(txtCht, "ingles/2019_q3.html");
+
+       TextView txtCht = findViewById(R.id.txtCHT);
+        click(txtCht, "ingles/2019_q1.html");
 
         TextView txtCnt = findViewById(R.id.txtCNT);
-        click(txtCnt, "ingles/2019_q3.html");
+        click(txtCnt, "ingles/2019_q2.html");
         TextView txtLct = findViewById(R.id.txtLCT);
         click(txtLct,"ingles/2019_q3.html");
         TextView txtMt =  findViewById(R.id.txtMT);
         click(txtMt, "ingles/2019_q3.html");
+
     }
 
     public void click(final TextView tv, final String grupo){

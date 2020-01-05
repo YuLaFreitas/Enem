@@ -11,7 +11,7 @@
         android:roundIcon="@drawable/ic_icone"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="ExtraText,GoogleAppIndexingWarning">
+        >
 
         <!-- This service is only used on devices with API v17+ -->
         <activity android:name=".MainActivity">
@@ -22,6 +22,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Gerenciador_arquivo" />
-
     </application>
+
 </manifest>
