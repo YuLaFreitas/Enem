@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="pt-br"/>
+    
+    <title>materia</title>
+    
+    <script type="text/javascript">         
+    function acertiva(alternativa){Resposta.avaliacao(alternativa);} 
+   function comentar(){
+       Resposta.comentario(
+           "Pela globalidade do seu texto presumo que"+
+           "com argumento queira referir o que, deste lado"+
+           "do Atlântico, costuma chamar-se comentário, isto"+
+           "é, a partir de um texto é preciso escrever, ou"+
+           "dissertar, sobre ele, analisando-o e comentando-o."+
+           "Assumindo que é assim vou tentar dar-lhe algumas"+
+           "sugestões de abordagem. \n"+
+           "Antes de mais, deverá fazer uma leitura ingénua"+
+           "do texto, ou seja, deverá lê-lo preocupado apenas"+
+           "em fruir essa leitura, em perceber que mensagem lhe"+
+           "traz esse texto. Seguidamente, terá de fazer uma"+
+           "análise pormenorizada, estando atento à forma como o"+
+           "texto se estrutura para fazer passar a mensagem."+
+           "Poderá começar por se concentrar nas classes gramaticais"+
+           "mais relevantes no texto: nomes ou substantivos; adjectivos;"+
+           "verbos; advérbios. No caso dos verbos vale a pena verificar,"+
+           "por exemplo, em que pessoa estão conjugados; se designam"+
+           "eventos (acções) ou estados, etc. Importa verificar também"+
+           "se há discurso directo, etc., etc.\n"+
+           "Depois de ter feito este trabalho, repare, por exemplo se os"+
+           "nomes ou adjectivos que existem no texto equivalem aos que um"+
+           "grupo de jovens usaria entre si, ou se pertencem mais ao grupo"+
+           "dos que um jovem usaria se tivesse de falar com uma pessoa a quem"+
+           "se deve tratar com muito respeito. Ao verificar isto, está a"+
+           "identificar marcas que lhe podem dar indicações acerca da formalidade"+
+           "do texto. Se grande número das palavras equivalerem às que são usadas"+
+           "pelos jovens entre si, o texto provavelmente é informal. Se, pelo contrário,"+
+           "tiver muitas palavras que só se usam em situações de grande respeito, então"+
+           "o texto poderá ser formal. Se, por outro lado, contiver muitos diálogos ou se"+
+           "usar a terceira pessoa do verbo com valor de você, ou de vocês, poderá"+
+           "tratar-se de um texto coloquial, que retrata uma situação de conversa."+
+           "Exemplifiquemos com um excerto retirado do Manual Compacto de Redacção e"+
+           "Estilo: Teoria e Prática, de Ana Tereza Pinto de Oliveira, S. Paulo, editora"+
+           "Rideel, 1994, pág. 653:/n"
+
+           );
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../stilos.css"> 
+    
+    </head>    
+<body id="corpo">
+    <div class="texto">
+        <img src="q1.png"/>
+            <article> 
+<cite>KEEFER, M. Disponível em: www.nj.com. Acesso em: 3 dez. 2018.</cite>  
+        </article>        
+    </div>
+    <div class="enuciado">
+        <h4> 
+            No cartum, o estudante faz uma pergunta usando <i>turn
+this thing on </i>por       
+        </h4>
+    </div>    
+    <div class="alternativas">        
+        <table> 
+            <dl>
+        <BUTTON id="a" onclick="acertiva(false)">
+                suspeitar que o colega está com seu material
+por engano.
+                </BUTTON></dl><dl>
+        <BUTTON id="b" onclick="acertiva(true)">
+            duvidar que o colega possa se tornar um
+bom aluno.
+            </BUTTON></dl><dl>
+        <BUTTON id="c" onclick="acertiva(false)">
+            desconfiar que o livro levado é de outra matéria.
+            </BUTTON></dl><dl>
+        <BUTTON id="d" onclick="acertiva(false)">
+            entender como desligada a postura do colega.
+            </BUTTON></dl><dl>
+        <BUTTON id="e" onclick="acertiva(false)">
+            desconhecer como usar um livro impresso
+            </BUTTON> </dl>  
+        </table>
+            </div>
+    <div class="comentario">
+        <button onclick="comentar()" id="com">NÃO TEM IDEIA?</button>
+    </div>    
+</body>
+</html>

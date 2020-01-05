@@ -26,7 +26,7 @@ import org.w3c.dom.Attr;
 
 import java.util.zip.Inflater;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends Activity {
 
     LinearLayout conteiner;
 
@@ -35,68 +35,29 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         setContentView(R.layout.activity_mascara_menu);
-        TextView txtCht = (TextView) findViewById(R.id.txtCHT);
-        click(txtCht);
+        TextView txtCht = findViewById(R.id.txtCHT);
+        click(txtCht, "ingles/2019_q3.html");
 
-        TextView txtCnt = (TextView) findViewById(R.id.txtCNT);
-        click(txtCnt);
-        TextView txtLct = (TextView) findViewById(R.id.txtLCT);
-        click(txtLct);
-        TextView txtMt = (TextView) findViewById(R.id.txtMT);
-        click(txtMt);
+        TextView txtCnt = findViewById(R.id.txtCNT);
+        click(txtCnt, "ingles/2019_q3.html");
+        TextView txtLct = findViewById(R.id.txtLCT);
+        click(txtLct,"ingles/2019_q3.html");
+        TextView txtMt =  findViewById(R.id.txtMT);
+        click(txtMt, "ingles/2019_q3.html");
     }
 
-    public void click(final TextView tv){
-        final TextView tx = new TextView(this);
+    public void click(final TextView tv, final String grupo){
 
-        final ViewGroup vg = new ViewGroup(this) {
-            @Override
-            protected void onLayout(boolean changed, int l, int t, int r, int b) {
-                LinearLayout ll = MainActivity.this.findViewById(R.id.linearFragment);
-                ll.layout(l, t,r, b);
-                tx.setText("Estou aqui");
-                ll.addView(tx);
-
-            }
-        };
-
-
-        final LayoutInflater inflater = new LayoutInflater(this) {
-            @Override
-            public LayoutInflater cloneInContext(Context newContext) {
-                return null;
-            }
-        };
-
-        inflater.inflate(R.layout.activity_fragment_maen, vg);
-
+        final Intent in = new Intent(this, Gerenciador_arquivo.class);
 
         tv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Snackbar snackbar =
-                        Snackbar.make(tv, "Vamos estudar:"
-                                + tv.getText(), Snackbar.LENGTH_INDEFINITE );
-                snackbar.setActionTextColor(
-                        getResources()
-                                .getColor(R.color.menuFundo));
-
-                    snackbar.show();
-                   /* Gerenciador_fragment gf = (Gerenciador_fragment)
-                            getSupportFragmentManager()
-                                    .findFragmentById(R.id.fraAlternGeral);*/
-
-                Gerenciador_fragment gf = new Gerenciador_fragment();
-                            gf.onCreateView(
-                                   inflater.cloneInContext(vg.getContext()) ,
-                                    vg, Bundle.EMPTY);
-                            gf.onAttach(this);
-                            gf.onStart();
-                            gf.onViewCreated(vg,Bundle.EMPTY);
+               in.putExtra("escolha", grupo);
+                startActivity(in);
             }
         });
-    }
+        }
 
     //APRESENTA DETALHES, FUTURAMENTE PODE SER UM FILTRO POR MATERIAS
     public void onClick(View v){

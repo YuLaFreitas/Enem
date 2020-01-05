@@ -69,7 +69,5 @@
         <item name="android:background">@color/dethFundo</item>
     </style>
 
-    <dimen name="menuMargem">15dp</dimen>
-    <dimen name="menuLayout">5dp</dimen>
-    <dimen name="fontAltentivas">12sp</dimen>
+
 </resources>

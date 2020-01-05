@@ -4,6 +4,7 @@
     package="com.appENEM.menugrupal">
 
     <application
+        android:fullBackupContent="true"
         android:allowBackup="true"
         android:icon="@drawable/ic_icone"
         android:label="@string/app_name"
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Gerenciador_fragment" />
+        <activity android:name=".Gerenciador_arquivo" />
 
     </application>
 </manifest>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="pt-br"/>
+    
+    <title>materia</title>
+    
+    <script type="text/javascript">         
+    //function acertiva(alternativa){Resposta.avaliacao(alternativa);} 
+    function comentar(){
+       document.getElementById("txtComent").innerHTML=
+           "Todo comentario vai ficar aqui e vai passar para lá";
+    }        
+    </script>
+    
+    <link rel="stylesheet" href="../stilos.css"> 
+    
+    </head>    
+<body id="corpo">
+    <div class="texto">
+            <article> 
+<cite></cite>  
+        </article>        
+    </div>
+    <div class="enuciado">
+        <h4>        
+        </h4>
+    </div>    
+    <div class="alternativas">        
+            <BUTTON id="a" onclick="acertiva(false)">           
+                </BUTTON>
+        <BUTTON id="b" onclick="acertiva(true)">        
+            </BUTTON>
+        <BUTTON id="c" onclick="acertiva(false)">        
+            </BUTTON>
+        <BUTTON id="d" onclick="acertiva(false)">       
+            </BUTTON>
+        <BUTTON id="e" onclick="acertiva(false)">       
+            </BUTTON>    
+            </div>
+    <div class="comentario">
+        <button onclick="comentar()" id="com">NÃO TEM IDEIA?</button>
+        <p id="txtComent"></p>
+    </div>    
+</body>
+</html>
