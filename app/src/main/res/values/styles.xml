@@ -28,6 +28,26 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
+    <style name="menuText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/menuFont</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">true</item>
+
+        <item name="android:layout_width">@dimen/textMenuWidth</item>
+        <item name="android:layout_height">@dimen/textMenuHeigt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+
+        <item name="android:layout_marginRight">@dimen/buttonMargem</item>
+        <item name="android:layout_marginLeft">@dimen/buttonMargem</item>
+        <item name="android:layout_marginEnd">@dimen/buttonMargem</item>
+        <item name="android:layout_marginStart">@dimen/buttonMargem</item>
+        <item name="android:layout_marginBottom">@dimen/buttonMargem</item>
+        <item name="android:layout_marginTop">@dimen/buttonMargem</item>
+
+    </style>
+
     <style name="conteinerMenu" parent="layoutLinha">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
@@ -42,6 +62,13 @@
         <item name="android:background">@color/dethFundo</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="image" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_open_menu</item>
+        <item name="android:background">@color/dethFundo</item>
     </style>
 
     <style name="enuciado" parent="Widget.AppCompat.TextView">
