@@ -22,15 +22,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_mascara_menu);
 
        TextView txtCht = findViewById(R.id.txtCHT);
-        click(txtCht, "ingles/2019_q1.html");
-
+        click(txtCht, "humanas");
         TextView txtCnt = findViewById(R.id.txtCNT);
-        click(txtCnt, "ingles/2019_q2.html");
+        click(txtCnt, "natureza");
         TextView txtLct = findViewById(R.id.txtLCT);
-        click(txtLct,"ingles/2019_q3.html");
+        click(txtLct,"linguagens");
         TextView txtMt =  findViewById(R.id.txtMT);
-        click(txtMt, "ingles/2019_q3.html");
-
+        click(txtMt, "numeros");
     }
 
     public void click(final TextView tv, final String grupo){
@@ -40,7 +38,7 @@ public class MainActivity extends Activity {
         tv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-               in.putExtra("escolha", grupo);
+               in.putExtra("grupo", grupo);
                 startActivity(in);
             }
         });

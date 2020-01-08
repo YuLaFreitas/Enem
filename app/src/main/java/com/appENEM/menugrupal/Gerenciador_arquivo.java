@@ -13,8 +13,13 @@ public class Gerenciador_arquivo extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questoes);
         Intent in = getIntent();
-        String valor = in.getStringExtra("escolha");
-        ativarWebView(valor);
+
+       String grupo =  in.getStringExtra("grupo");
+       String displina = "ingles";
+
+       int anoProva = 2019;
+       int questao = 4;
+        ativarWebView(grupo + "/" + displina + "/" + anoProva + "_q" + questao +".html" );
     }
 
     @SuppressLint({"JavascriptInterface", "AddJavascriptInterface", "SetJavaScriptEnabled"})
@@ -27,7 +32,7 @@ public class Gerenciador_arquivo extends Activity {
         web.addJavascriptInterface(new Resposta(this), "Resposta");
         web.showContextMenu();
         web.loadUrl(
-                "file:///android_asset/perguntas/" + url);
+                "file:///android_asset/" + url);
     }
 
 }
