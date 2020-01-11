@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="com.appENEM.menugrupal.MateriasMenu"
+            android:label="@string/title_activity_materias_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+</manifest>
